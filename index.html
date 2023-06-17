@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manim Online</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-app">
+        <div class="top-title">
+            <div class="inline">
+                <img class="top-logo" src="D:/m.png" title="manim-logo-30-30">
+                <p class="top-app-title" id="top-app-title" style="display: inline;">Manim Online - By Ansrics</p>
+                <div align="right" class="urbtns">
+                    <button class="ur-ctrlbtns" title="Minimize">一</button>
+                    <button class="ur-ctrlbtns" title="Fullscreen">口</button>
+                    <button class="ur-exit" title="Exit" onclick="window.close()">X</button>
+                </div>
+            </div>
+        </div>
+        <div class="top-func-btns">
+            <button class="top-func-btn-normal dropbtn" onclick="myFunction()">File</button>
+            <div id="myDropdown" class="top-dropbtn-content">
+                <button class="top-dropdown-content-btn">New File...</button>
+                <button class="top-dropdown-content-btn" onclick="openFile()">Open File...</button>
+                <input class="open-file-input" id="top-open-file" type="file">
+                <button class="top-dropdown-content-btn">Open Folder...</button>
+                <!-- <p>This is a dropdown menu</p>
+                <button class="top-dropbtn-subbtn" id="123123" onclick="console.log('1');">1111111</button> -->
+            </div>
+            <script src="ui.js"></script>
+            <button class="top-func-btn-normal">Edit</button>
+            <button class="top-func-btn-normal">Project</button>
+            <button class="top-func-btn-normal">Mobject</button>
+            <button class="top-func-btn-normal">Animation</button>
+            <button class="top-func-btn-normal">Version</button>
+            <button class="top-func-btn-normal">Help</button>
+        </div>
+        <div class="app-container"></div>
+        <div style="height: 800px;"></div>
+        <div class="bottom-margin"></div>
+    </div>
+</body>
+</html>
