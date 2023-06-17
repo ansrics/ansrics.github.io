@@ -1,0 +1,117 @@
+body {
+	margin: 0px;
+}
+.main-app {
+	border-style: solid;
+	border-width: 1px;
+}
+.top-logo {
+	width: 15px;
+	height: 15px;
+	text-align: left;
+}
+.top-app-title {
+	font-size: 10px;
+	position: relative;
+	bottom: 2px;
+}
+.top-func-btns {
+	height: 13px;
+	text-align: left;
+}
+.top-func-btn-normal {
+	display: inline-block;
+	background-color: white;
+	border: none;
+	position: relative;
+	bottom: 3px;
+	font-family: sans-serif;
+	font-size: 10px;
+	padding: 3px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.top-func-btn-normal:hover {
+	background-color: #99ffcc;
+}
+.app-container {
+	background-color: #eeeeee;
+}
+.bottom-margin {
+	height: 5px;
+}
+.minimize-button-ur {
+	height: 15px;
+	width: 30px;
+	text-align: right;
+}
+.inline {
+	display: inline;
+}
+.urbtns {
+	position: absolute;
+	right: 0px;
+	display: inline;
+}
+.ur-ctrlbtns {
+	height: 20px;
+	background-color: white;
+	border: none;
+	width: 30px;
+	transition-duration: 0.4s;
+}
+.ur-ctrlbtns:hover {
+	background-color: #f0f0f0;
+}
+.ur-exit {
+	height: 20px;
+	width: 30px;
+	background-color: white;
+	position: relative;
+	bottom: 2.4px;
+	border: none;
+	right: 0.5px;
+	transition-duration: 0.15s;
+}
+.ur-exit:hover {
+	background-color: red;
+	color: white;
+}
+.top-dropdown {
+	display: none;
+	z-index: 100;
+}
+.top-dropbtn-content {
+    display: none;
+    position: absolute;
+    /*background-color: #f9f9f9;*/
+    border: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    min-width: 160px;
+    /*overflow: auto;*/
+
+    z-index: 123456;
+}
+.top-dropbtn-content p {
+    /*color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;*/
+}
+.show {
+	display: block;
+}
+.top-dropdown-content-btn {
+	background-color: #eee;
+	border: none;
+	min-height: 15px;
+	min-width: inherit;
+	display: block;
+}
+.top-dropdown-content-btn:hover {
+	background-color: #6bbedd;
+}
+.open-file-input {
+	display: none;
+}
